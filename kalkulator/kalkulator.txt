@@ -1,0 +1,13 @@
+Zadanie
+
+Napisz program obliczający wartość wyrażenia z nawiasami, np.: dla „(2*(2+4))”, należy zwrócić 12.
+
+Wejście
+
+Program czyta ze standardowego wejścia dane zawierają prawidłowy ciąg znaków: cyfr, operatorów, nawiasów i spacji o maksymalnej długości 1000000 znaków. 
+Dane wejściowe są prawidłowe, nie ma konieczności sprawdzania.
+
+Wyjście
+
+Program wypisuje na standardowe wyjście jedną liczbę, która jest wynikiem obliczenia wartości wyrażenia. 
+Jeżeli podczas obliczania wyrażenia dojdzie do dzielenia przez zero, program powinien wypisać: NaN

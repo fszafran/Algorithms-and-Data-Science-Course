@@ -1,0 +1,25 @@
+Zadanie
+
+Konkurs programistyczny zgromadził dużą liczbę uczestników, którzy zdobywali punkty w różnych konkurencjach. 
+Każdy uczestnik zapisując się do konkursu otrzymywał kolejny numer startowy. Na koniec zawodów, powstała lista wyników.
+
+Napisz program, który na podstawie wyników układa ranking uczestników. Jeśli wystartowało 5 zawodników uzyskując wyniki:
+
+11 15 25 15 31
+
+Ich rankingi są następujące:
+
+5 3 2 3 1
+
+Zwróć uwagę na remisy. Jeśli takowy wystąpił, ranking wszystkich miejsc dzielonych jest taki sam. 
+Można powiedzieć, że ranking uczestnika to liczba o jeden większa niż liczba uczestników, którzy osiągnęli lepszy od niego wynik punktowy.
+
+Wejście
+
+Program czyta dane ze standardowego wejścia. 
+W pierwszej linii znajduje się pojedyncza liczba N oznaczająca liczbę uczestników (1 ≤N ≤ 10000 000). 
+Następnie znajdują się wyniki punktowe ki kolejnych zawodników (0 ≤ki≤ 100000 000, dla 1≤ i≤ N).
+
+Wyjście
+
+Program powinien wypisać na standardowe wyjście listę rankingów ri (dla 1≤ i≤ N) kolejnych zawodników oddzielone spacjami.
