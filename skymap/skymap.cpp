@@ -1,8 +1,21 @@
-﻿#include <iostream>
+#include <iostream>
 #include <vector>
 #include <string.h>
 
 using namespace std;
+
+/*
+*
+*  Weighted quick union implementation of union-find algotithm
+*  with path compression
+*
+*  A reference implementation
+*
+*
+*  Author: Jacek Marciniak
+*  Date: 2015-11-07
+*
+*/
 
 // Data
 int cc;  // Number of components
